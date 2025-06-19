@@ -31,9 +31,8 @@ El entorno simulado muestra una infección de tipo ransomware donde los archivos
 
 La nota de rescate exige el pago en criptomonedas a cambio de una clave para descifrar los archivos.
 
-![Nota de rescate](evidencias/leeme-notas.PNG)
-
 **Contenido de la nota:**
+
 > All your files have been encrypted by PowerByte Ransomware.  
 > If you want to recover your files, you must pay...
 
@@ -97,8 +96,15 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 ```
 
 ![Archivos cifrados y nota de rescate](evidencias/Localizamos-el-comprimido.PNG)
-![Archivos cifrados y nota de rescate](evidencias/añadimos-hash.PNG)
 ![Archivos cifrados y nota de rescate](evidencias/rar-to-john.PNG)
+![Archivos cifrados y nota de rescate](evidencias/añadimos-hash.PNG)
+
+
+Encontramos que la contraseña es: skull 
+
+Dentro del archivo encriptado encontramos un documento .txt y un .doc, que al abrirlos aparecen los siguientes mensajes:
+
+![Nota de rescate](evidencias/leeme-notas.PNG)
 
 ---
 
