@@ -1,3 +1,8 @@
+# 📘 Descripción extendida (About):
+Este repositorio documenta un ejercicio práctico de ciberseguridad en el que se investiga un incidente de chantaje interno simulado. Se analiza un archivo .rar protegido por contraseña utilizando técnicas de recuperación forense y la herramienta John the Ripper. El objetivo es recuperar documentos confidenciales sin ceder a las exigencias del atacante.
+
+---
+
 # 🕵️‍♀️ POWERBYTE Ransomware Investigation
 
 Caso práctico de análisis forense y recuperación de datos tras un posible incidente de **ransomware interno** en la empresa ficticia **POWERBYTE Déborah Loisel S.A.**, una tienda en línea de productos electrónicos.
